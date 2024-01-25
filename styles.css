@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.post {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 0px auto;
+    
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+.post-brand{
+    display: flex;
+    align-items: center;
+    margin: 15px 10px;
+} 
+
+.text-header{
+    margin: 0px 15px;
+    
+}
+
+h3, h4{
+    margin: 0px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.post-body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.post-icons{
+   display: flex;
+ justify-content: space-between;
+
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.text-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
